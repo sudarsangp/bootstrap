@@ -300,6 +300,11 @@ border-color: #fff;
     margin-left: inherit;
 }
 
+.navbar-nav > li > .dropdown-menu {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
 .header-placeholder {
     height: 50px;
 }
